@@ -12,6 +12,17 @@
  	scanf("%d",&x);
  	printf("enter scond numbre:");
  	scanf("%d",&y);
+ 	if (Char=='1'||Char=='+')
+ 	printf("%d+%d=%d",x,y,x+y);
+ 	else if(Char=='2'||Char=='+')
+ 	printf("%d-%d=%d",x,y,x-y);
+ 	else if(Char=='3'||Char=='*')
+ 	printf("%d*%d=%d",x,y,x*y);
+ 	else if(Char=='4'||Char=='/')
+ 	printf("%d/%d=%d",x,y,x/y);
+ 	
+ 	
+ 	
  	
  	
  	
