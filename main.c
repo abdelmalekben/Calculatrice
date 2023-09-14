@@ -21,8 +21,8 @@
  	else if(Char=='4'||Char=='/')
  	printf("%d/%d=%d",x,y,x/y);
  	
- 	
- 	
+ 	else
+ 	printf("error in choice!!");
  	
  	
  	
